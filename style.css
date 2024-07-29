@@ -1,0 +1,17 @@
+.header{
+    background-color: #1F2937;
+    width:100vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8px
+}
