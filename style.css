@@ -1,9 +1,20 @@
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0% 20%;
+    background-color: black;
+}
+
 .header{
     background-color: #1F2937;
-    width:100vw;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
 }
 
 a{
@@ -13,5 +24,131 @@ a{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 8px
+    gap: 16px;
 }
+
+
+.title{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 25px 50px;
+}
+
+.left-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.top-button{
+    align-self: flex-start;
+}
+
+p{
+    margin-top: 0px;
+}
+
+h2, h4{
+    margin-bottom: 0px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 25px;
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 0px 25px 0px;
+}
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    background-color: white;  
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+figcaption{
+    width: 100px;
+    text-align: center;
+}
+
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;     
+}
+
+.quote{
+    font-style: italic;
+    font-size: 24px;
+    padding: 10px 10px 0px;
+    display: flex;
+}
+
+.citation{
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.sign-up{
+    background-color: white;
+    padding: 50px;
+}
+
+.action{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.action-right{
+    border-radius: 5px;;
+    display: flex;
+    align-self: center;
+    border: 2px white solid;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
